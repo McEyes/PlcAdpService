@@ -1,0 +1,1360 @@
+2024-08-21 11:27:40.621 +08:00 [INF] User profile is available. Using 'C:\Users\3419954\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 11:27:40.722 +08:00 [INF] Loaded ABP modules:
+2024-08-21 11:27:40.722 +08:00 [INF] - jb.smartchangeover.Service.HttpApi.Host.SmartChangeOverHttpApiHostModule
+2024-08-21 11:27:40.722 +08:00 [INF]   - Jabil.Service.Shared.Hosting.Microservices.SharedHostingMicroserviceModule
+2024-08-21 11:27:40.722 +08:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-08-21 11:27:40.722 +08:00 [INF]       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-08-21 11:27:40.723 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-08-21 11:27:40.723 +08:00 [INF]             - Volo.Abp.Data.AbpDataModule
+2024-08-21 11:27:40.723 +08:00 [INF]               - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-08-21 11:27:40.723 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-08-21 11:27:40.723 +08:00 [INF]                 - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-08-21 11:27:40.723 +08:00 [INF]               - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-08-21 11:27:40.723 +08:00 [INF]               - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-08-21 11:27:40.723 +08:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-08-21 11:27:40.723 +08:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-08-21 11:27:40.723 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2024-08-21 11:27:40.723 +08:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2024-08-21 11:27:40.723 +08:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2024-08-21 11:27:40.723 +08:00 [INF]                     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-08-21 11:27:40.723 +08:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-08-21 11:27:40.723 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-08-21 11:27:40.723 +08:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-08-21 11:27:40.723 +08:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-08-21 11:27:40.723 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-08-21 11:27:40.723 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-08-21 11:27:40.723 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-08-21 11:27:40.723 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-08-21 11:27:40.723 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-08-21 11:27:40.723 +08:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-08-21 11:27:40.723 +08:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-08-21 11:27:40.723 +08:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-08-21 11:27:40.723 +08:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-08-21 11:27:40.723 +08:00 [INF]   - jb.smartchangeover.Service.Application.SmartChangeOverApplicationModule
+2024-08-21 11:27:40.723 +08:00 [INF]     - jb.smartchangeover.Service.Domain.SmartChangeOverDomainModule
+2024-08-21 11:27:40.723 +08:00 [INF]       - Volo.Abp.Caching.AbpCachingModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.Serialization.AbpSerializationModule
+2024-08-21 11:27:40.723 +08:00 [INF]       - jb.smartchangeover.Service.Domain.Shared.SmartChangeOverDomainSharedModule
+2024-08-21 11:27:40.723 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-08-21 11:27:40.723 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-08-21 11:27:40.723 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-08-21 11:27:40.723 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-08-21 11:27:40.723 +08:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-08-21 11:27:40.724 +08:00 [INF]       - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2024-08-21 11:27:40.724 +08:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-08-21 11:27:40.724 +08:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-08-21 11:27:40.724 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-08-21 11:27:40.724 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-08-21 11:27:40.724 +08:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-08-21 11:27:40.724 +08:00 [INF]     - Jabil.Service.Frameworks.JabilServiceFrameworksModule
+2024-08-21 11:27:40.724 +08:00 [INF]   - jb.smartchangeover.Service.HttpApi.SmartChangeOverHttpApiModule
+2024-08-21 11:27:40.724 +08:00 [INF]     - jb.smartchangeover.Service.Application.Contracts.SmartChangeOverApplicationContractsModule
+2024-08-21 11:27:40.724 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-08-21 11:27:40.724 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-08-21 11:27:40.724 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-08-21 11:27:40.724 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-08-21 11:27:40.724 +08:00 [INF]   - SmartChangeOverEntityFrameworkCoreModule
+2024-08-21 11:27:40.724 +08:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-08-21 11:27:40.724 +08:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-08-21 11:27:40.724 +08:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-08-21 11:27:40.724 +08:00 [INF]     - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2024-08-21 11:27:40.724 +08:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-08-21 11:27:40.724 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-08-21 11:27:40.724 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-08-21 11:27:41.536 +08:00 [INF] 1,升降机AE-5706状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:27:41.546 +08:00 [INF] 2,送板机 AE-5705状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:27:41.580 +08:00 [INF] 3,轨道 AE-6523状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:27:41.587 +08:00 [INF] 4,轨道 AE-5040状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:27:41.593 +08:00 [INF] 4,轨道 AE-6526状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:27:41.599 +08:00 [INF] 4,轨道 AE-5707状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:27:41.611 +08:00 [INF] 4,轨道 AE-5704状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:27:41.634 +08:00 [INF] 4,轨道 AE-5708状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:27:41.663 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224] CmdExecStatus:Success
+2024-08-21 11:27:41.668 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:27:41.668 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:27:41.668 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:27:41.669 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][3] IsConnected faild .
+2024-08-21 11:27:41.673 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:27:41.678 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:27:41.680 +08:00 [INF] Initialized all ABP modules.
+2024-08-21 11:27:41.692 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:27:41.712 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:27:41.717 +08:00 [INF] Now listening on: http://localhost:5270
+2024-08-21 11:27:41.717 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 11:27:41.718 +08:00 [INF] Hosting environment: Development
+2024-08-21 11:27:41.718 +08:00 [INF] Content root path: C:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.HttpApi.Host
+2024-08-21 11:27:41.740 +08:00 [INF] MQTT client connect
+2024-08-21 11:27:41.818 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:27:41.824 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:27:41.908 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:27:41.909 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:27:41.915 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:27:41.915 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:27:41.922 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:27:41.922 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:27:41.932 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:27:41.933 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:28:00.487 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/index.html - -
+2024-08-21 11:28:00.491 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-08-21 11:28:01.084 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/index.html - - - 200 - text/html;charset=utf-8 597.8563ms
+2024-08-21 11:28:01.413 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - -
+2024-08-21 11:28:01.655 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 241.5766ms
+2024-08-21 11:29:42.555 +08:00 [INF] 1,升降机AE-5706状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:29:42.616 +08:00 [INF] 4,轨道 AE-5708状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:29:42.656 +08:00 [INF] 4,轨道 AE-6526状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:29:42.656 +08:00 [INF] 4,轨道 AE-5040状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:29:42.693 +08:00 [INF] 3,轨道 AE-6523状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:29:42.757 +08:00 [INF] 4,轨道 AE-5707状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:29:42.776 +08:00 [INF] 2,送板机 AE-5705状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:29:42.831 +08:00 [INF] 4,轨道 AE-5704状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:29:42.868 +08:00 [ERR] [4,轨道 AE-5707][10.115.66.119]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:29:42.868 +08:00 [ERR] [4,轨道 AE-5040][10.115.66.118]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:29:42.868 +08:00 [ERR] [4,轨道 AE-5708][10.115.66.237]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:29:42.869 +08:00 [ERR] [3,轨道 AE-6523][10.115.66.231]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:29:42.869 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][3] IsConnected faild .
+2024-08-21 11:29:42.868 +08:00 [ERR] [1,升降机AE-5706][10.115.66.111]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:29:42.869 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:29:42.869 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:29:42.868 +08:00 [ERR] [4,轨道 AE-6526][10.115.66.235]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:29:42.869 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:29:42.868 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:29:42.869 +08:00 [ERR] [4,轨道 AE-5704][10.115.66.87]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:29:42.870 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:29:42.870 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224] CmdExecStatus:Ready
+2024-08-21 11:29:42.869 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:29:42.871 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:29:42.871 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:29:42.874 +08:00 [INF] MQTT client disconnect
+2024-08-21 11:29:43.519 +08:00 [INF] 3,轨道 AE-6523状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:29:43.521 +08:00 [INF] 4,轨道 AE-6526状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:29:43.521 +08:00 [INF] 1,升降机AE-5706状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:29:43.521 +08:00 [INF] 4,轨道 AE-5707状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:29:43.522 +08:00 [ERR] [4,轨道 AE-6526] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:29:43.522 +08:00 [ERR] [3,轨道 AE-6523] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:29:43.522 +08:00 [ERR] [4,轨道 AE-5707] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:29:43.522 +08:00 [ERR] [1,升降机AE-5706] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:29:43.523 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:29:43.523 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:29:43.523 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:29:43.523 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][3] IsConnected faild .
+2024-08-21 11:29:43.589 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:29:43.591 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][3] IsConnected faild .
+2024-08-21 11:29:43.593 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:29:43.595 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:29:43.753 +08:00 [INF] 4,轨道 AE-5040状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:29:43.753 +08:00 [ERR] [4,轨道 AE-5040] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:29:43.753 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:29:43.793 +08:00 [INF] 4,轨道 AE-5704状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:29:43.793 +08:00 [INF] 4,轨道 AE-5708状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:29:43.794 +08:00 [ERR] [4,轨道 AE-5704] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:29:43.795 +08:00 [ERR] [4,轨道 AE-5708] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:29:43.795 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:29:43.795 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:29:43.798 +08:00 [INF] 2,送板机 AE-5705状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:29:43.799 +08:00 [ERR] [2,送板机 AE-5705] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:29:43.799 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:29:43.852 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:29:43.864 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224] CmdExecStatus:Success
+2024-08-21 11:29:43.864 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:29:43.868 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:29:43.869 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:29:45.924 +08:00 [INF] MQTT client connect
+2024-08-21 11:29:45.948 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:29:45.949 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:29:46.009 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:29:46.010 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:29:46.017 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:29:46.017 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:29:46.025 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:29:46.025 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:29:46.030 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:29:46.030 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:32:53.883 +08:00 [INF] User profile is available. Using 'C:\Users\3419954\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 11:32:53.942 +08:00 [INF] Loaded ABP modules:
+2024-08-21 11:32:53.943 +08:00 [INF] - jb.smartchangeover.Service.HttpApi.Host.SmartChangeOverHttpApiHostModule
+2024-08-21 11:32:53.943 +08:00 [INF]   - Jabil.Service.Shared.Hosting.Microservices.SharedHostingMicroserviceModule
+2024-08-21 11:32:53.943 +08:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-08-21 11:32:53.943 +08:00 [INF]       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-08-21 11:32:53.943 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-08-21 11:32:53.943 +08:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-08-21 11:32:53.943 +08:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-08-21 11:32:53.943 +08:00 [INF]             - Volo.Abp.Data.AbpDataModule
+2024-08-21 11:32:53.943 +08:00 [INF]               - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-08-21 11:32:53.943 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-08-21 11:32:53.943 +08:00 [INF]                 - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-08-21 11:32:53.943 +08:00 [INF]               - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-08-21 11:32:53.943 +08:00 [INF]               - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-08-21 11:32:53.943 +08:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-08-21 11:32:53.943 +08:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-08-21 11:32:53.943 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2024-08-21 11:32:53.943 +08:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2024-08-21 11:32:53.943 +08:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2024-08-21 11:32:53.943 +08:00 [INF]                     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-08-21 11:32:53.943 +08:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-08-21 11:32:53.943 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-08-21 11:32:53.943 +08:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-08-21 11:32:53.943 +08:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-08-21 11:32:53.943 +08:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-08-21 11:32:53.943 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-08-21 11:32:53.943 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-08-21 11:32:53.943 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-08-21 11:32:53.943 +08:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-08-21 11:32:53.943 +08:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-08-21 11:32:53.943 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-08-21 11:32:53.943 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-08-21 11:32:53.943 +08:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-08-21 11:32:53.943 +08:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-08-21 11:32:53.943 +08:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-08-21 11:32:53.943 +08:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-08-21 11:32:53.943 +08:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-08-21 11:32:53.943 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-08-21 11:32:53.943 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-08-21 11:32:53.943 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-08-21 11:32:53.943 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-08-21 11:32:53.943 +08:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-08-21 11:32:53.943 +08:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-08-21 11:32:53.943 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-08-21 11:32:53.943 +08:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-08-21 11:32:53.943 +08:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-08-21 11:32:53.943 +08:00 [INF]   - jb.smartchangeover.Service.Application.SmartChangeOverApplicationModule
+2024-08-21 11:32:53.943 +08:00 [INF]     - jb.smartchangeover.Service.Domain.SmartChangeOverDomainModule
+2024-08-21 11:32:53.943 +08:00 [INF]       - Volo.Abp.Caching.AbpCachingModule
+2024-08-21 11:32:53.943 +08:00 [INF]         - Volo.Abp.Serialization.AbpSerializationModule
+2024-08-21 11:32:53.943 +08:00 [INF]       - jb.smartchangeover.Service.Domain.Shared.SmartChangeOverDomainSharedModule
+2024-08-21 11:32:53.943 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-08-21 11:32:53.943 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-08-21 11:32:53.943 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-08-21 11:32:53.944 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-08-21 11:32:53.944 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-08-21 11:32:53.944 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-08-21 11:32:53.944 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-08-21 11:32:53.944 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-08-21 11:32:53.944 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-08-21 11:32:53.944 +08:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-08-21 11:32:53.944 +08:00 [INF]       - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2024-08-21 11:32:53.944 +08:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-08-21 11:32:53.944 +08:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-08-21 11:32:53.944 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-08-21 11:32:53.944 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-08-21 11:32:53.944 +08:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-08-21 11:32:53.944 +08:00 [INF]     - Jabil.Service.Frameworks.JabilServiceFrameworksModule
+2024-08-21 11:32:53.944 +08:00 [INF]   - jb.smartchangeover.Service.HttpApi.SmartChangeOverHttpApiModule
+2024-08-21 11:32:53.944 +08:00 [INF]     - jb.smartchangeover.Service.Application.Contracts.SmartChangeOverApplicationContractsModule
+2024-08-21 11:32:53.944 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-08-21 11:32:53.944 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-08-21 11:32:53.944 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-08-21 11:32:53.944 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-08-21 11:32:53.944 +08:00 [INF]   - SmartChangeOverEntityFrameworkCoreModule
+2024-08-21 11:32:53.944 +08:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-08-21 11:32:53.944 +08:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-08-21 11:32:53.944 +08:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-08-21 11:32:53.944 +08:00 [INF]     - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2024-08-21 11:32:53.944 +08:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-08-21 11:32:53.945 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-08-21 11:32:53.945 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-08-21 11:32:54.371 +08:00 [INF] 1,升降机AE-5706状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:32:54.378 +08:00 [INF] 2,送板机 AE-5705状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:32:54.382 +08:00 [INF] 3,轨道 AE-6523状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:32:54.385 +08:00 [INF] 4,轨道 AE-5040状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:32:54.388 +08:00 [INF] 4,轨道 AE-6526状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:32:54.390 +08:00 [INF] 4,轨道 AE-5707状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:32:54.393 +08:00 [INF] 4,轨道 AE-5704状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:32:54.395 +08:00 [INF] 4,轨道 AE-5708状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:32:54.418 +08:00 [INF] Initialized all ABP modules.
+2024-08-21 11:32:54.438 +08:00 [INF] Now listening on: http://localhost:5270
+2024-08-21 11:32:54.438 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 11:32:54.438 +08:00 [INF] Hosting environment: Development
+2024-08-21 11:32:54.438 +08:00 [INF] Content root path: C:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.HttpApi.Host
+2024-08-21 11:32:54.449 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224] CmdExecStatus:Success
+2024-08-21 11:32:54.454 +08:00 [INF] MQTT client connect
+2024-08-21 11:32:54.544 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:32:54.548 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:32:54.566 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:32:54.566 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:32:54.571 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:32:54.571 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:32:54.577 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:32:54.578 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:32:54.583 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:32:54.583 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:32:54.710 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/index.html - -
+2024-08-21 11:32:54.713 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-08-21 11:32:54.997 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/index.html - - - 200 - text/html;charset=utf-8 287.7949ms
+2024-08-21 11:32:55.085 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - -
+2024-08-21 11:32:55.279 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.1417ms
+2024-08-21 11:35:10.358 +08:00 [INF] User profile is available. Using 'C:\Users\3419954\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 11:35:10.418 +08:00 [INF] Loaded ABP modules:
+2024-08-21 11:35:10.418 +08:00 [INF] - jb.smartchangeover.Service.HttpApi.Host.SmartChangeOverHttpApiHostModule
+2024-08-21 11:35:10.418 +08:00 [INF]   - Jabil.Service.Shared.Hosting.Microservices.SharedHostingMicroserviceModule
+2024-08-21 11:35:10.418 +08:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-08-21 11:35:10.418 +08:00 [INF]       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-08-21 11:35:10.418 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-08-21 11:35:10.418 +08:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-08-21 11:35:10.418 +08:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-08-21 11:35:10.418 +08:00 [INF]             - Volo.Abp.Data.AbpDataModule
+2024-08-21 11:35:10.418 +08:00 [INF]               - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-08-21 11:35:10.418 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-08-21 11:35:10.418 +08:00 [INF]                 - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-08-21 11:35:10.418 +08:00 [INF]               - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-08-21 11:35:10.418 +08:00 [INF]               - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-08-21 11:35:10.418 +08:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-08-21 11:35:10.418 +08:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-08-21 11:35:10.418 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2024-08-21 11:35:10.418 +08:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2024-08-21 11:35:10.418 +08:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2024-08-21 11:35:10.418 +08:00 [INF]                     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-08-21 11:35:10.418 +08:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-08-21 11:35:10.418 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-08-21 11:35:10.418 +08:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-08-21 11:35:10.418 +08:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-08-21 11:35:10.418 +08:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-08-21 11:35:10.418 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-08-21 11:35:10.418 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-08-21 11:35:10.418 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-08-21 11:35:10.418 +08:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-08-21 11:35:10.418 +08:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-08-21 11:35:10.418 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-08-21 11:35:10.418 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-08-21 11:35:10.418 +08:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-08-21 11:35:10.418 +08:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-08-21 11:35:10.418 +08:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-08-21 11:35:10.418 +08:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-08-21 11:35:10.418 +08:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-08-21 11:35:10.419 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-08-21 11:35:10.419 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-08-21 11:35:10.419 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-08-21 11:35:10.419 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-08-21 11:35:10.419 +08:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-08-21 11:35:10.419 +08:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-08-21 11:35:10.419 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-08-21 11:35:10.419 +08:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-08-21 11:35:10.419 +08:00 [INF]   - jb.smartchangeover.Service.Application.SmartChangeOverApplicationModule
+2024-08-21 11:35:10.419 +08:00 [INF]     - jb.smartchangeover.Service.Domain.SmartChangeOverDomainModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.Caching.AbpCachingModule
+2024-08-21 11:35:10.419 +08:00 [INF]         - Volo.Abp.Serialization.AbpSerializationModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - jb.smartchangeover.Service.Domain.Shared.SmartChangeOverDomainSharedModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-08-21 11:35:10.419 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-08-21 11:35:10.419 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-08-21 11:35:10.419 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-08-21 11:35:10.419 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-08-21 11:35:10.419 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-08-21 11:35:10.419 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-08-21 11:35:10.419 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2024-08-21 11:35:10.419 +08:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-08-21 11:35:10.419 +08:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-08-21 11:35:10.419 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-08-21 11:35:10.419 +08:00 [INF]     - Jabil.Service.Frameworks.JabilServiceFrameworksModule
+2024-08-21 11:35:10.419 +08:00 [INF]   - jb.smartchangeover.Service.HttpApi.SmartChangeOverHttpApiModule
+2024-08-21 11:35:10.419 +08:00 [INF]     - jb.smartchangeover.Service.Application.Contracts.SmartChangeOverApplicationContractsModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-08-21 11:35:10.419 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-08-21 11:35:10.419 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-08-21 11:35:10.419 +08:00 [INF]   - SmartChangeOverEntityFrameworkCoreModule
+2024-08-21 11:35:10.419 +08:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-08-21 11:35:10.419 +08:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-08-21 11:35:10.419 +08:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-08-21 11:35:10.420 +08:00 [INF]     - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2024-08-21 11:35:10.420 +08:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-08-21 11:35:10.420 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-08-21 11:35:10.420 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-08-21 11:35:10.824 +08:00 [INF] 1,升降机AE-5706状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:35:10.832 +08:00 [INF] 2,送板机 AE-5705状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:35:10.838 +08:00 [INF] 3,轨道 AE-6523状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:35:10.843 +08:00 [INF] 4,轨道 AE-5040状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:35:10.874 +08:00 [INF] 4,轨道 AE-6526状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:35:10.878 +08:00 [INF] 4,轨道 AE-5707状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:35:10.884 +08:00 [INF] 4,轨道 AE-5704状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:35:10.887 +08:00 [INF] 4,轨道 AE-5708状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:35:10.904 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224] CmdExecStatus:Success
+2024-08-21 11:35:10.908 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:35:10.908 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:35:10.909 +08:00 [INF] Initialized all ABP modules.
+2024-08-21 11:35:10.915 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:35:10.928 +08:00 [INF] Now listening on: http://localhost:5270
+2024-08-21 11:35:10.928 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 11:35:10.928 +08:00 [INF] Hosting environment: Development
+2024-08-21 11:35:10.929 +08:00 [INF] Content root path: C:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.HttpApi.Host
+2024-08-21 11:35:10.942 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:35:10.942 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:35:10.948 +08:00 [INF] MQTT client connect
+2024-08-21 11:35:10.976 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:35:10.980 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:35:10.988 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:35:10.988 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:35:10.995 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:35:10.995 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:35:11.000 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:35:11.000 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:35:11.004 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:35:11.005 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:35:11.180 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/index.html - -
+2024-08-21 11:35:11.184 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-08-21 11:35:11.450 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/index.html - - - 200 - text/html;charset=utf-8 269.4941ms
+2024-08-21 11:35:11.540 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - -
+2024-08-21 11:35:11.714 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.7072ms
+2024-08-21 11:36:45.376 +08:00 [INF] User profile is available. Using 'C:\Users\3419954\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 11:36:45.460 +08:00 [INF] Loaded ABP modules:
+2024-08-21 11:36:45.460 +08:00 [INF] - jb.smartchangeover.Service.HttpApi.Host.SmartChangeOverHttpApiHostModule
+2024-08-21 11:36:45.460 +08:00 [INF]   - Jabil.Service.Shared.Hosting.Microservices.SharedHostingMicroserviceModule
+2024-08-21 11:36:45.460 +08:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-08-21 11:36:45.460 +08:00 [INF]       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-08-21 11:36:45.460 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-08-21 11:36:45.460 +08:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-08-21 11:36:45.460 +08:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-08-21 11:36:45.460 +08:00 [INF]             - Volo.Abp.Data.AbpDataModule
+2024-08-21 11:36:45.460 +08:00 [INF]               - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-08-21 11:36:45.460 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-08-21 11:36:45.460 +08:00 [INF]                 - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-08-21 11:36:45.460 +08:00 [INF]               - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-08-21 11:36:45.460 +08:00 [INF]               - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-08-21 11:36:45.460 +08:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-08-21 11:36:45.460 +08:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-08-21 11:36:45.460 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2024-08-21 11:36:45.460 +08:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2024-08-21 11:36:45.460 +08:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2024-08-21 11:36:45.460 +08:00 [INF]                     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-08-21 11:36:45.460 +08:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-08-21 11:36:45.460 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-08-21 11:36:45.460 +08:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-08-21 11:36:45.460 +08:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-08-21 11:36:45.460 +08:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-08-21 11:36:45.460 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-08-21 11:36:45.460 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-08-21 11:36:45.460 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-08-21 11:36:45.460 +08:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-08-21 11:36:45.460 +08:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-08-21 11:36:45.460 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-08-21 11:36:45.460 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-08-21 11:36:45.460 +08:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-08-21 11:36:45.460 +08:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-08-21 11:36:45.460 +08:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-08-21 11:36:45.460 +08:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-08-21 11:36:45.460 +08:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-08-21 11:36:45.460 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-08-21 11:36:45.461 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-08-21 11:36:45.461 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-08-21 11:36:45.461 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-08-21 11:36:45.461 +08:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-08-21 11:36:45.461 +08:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-08-21 11:36:45.461 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-08-21 11:36:45.461 +08:00 [INF]   - jb.smartchangeover.Service.Application.SmartChangeOverApplicationModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - jb.smartchangeover.Service.Domain.SmartChangeOverDomainModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.Caching.AbpCachingModule
+2024-08-21 11:36:45.461 +08:00 [INF]         - Volo.Abp.Serialization.AbpSerializationModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - jb.smartchangeover.Service.Domain.Shared.SmartChangeOverDomainSharedModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-08-21 11:36:45.461 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-08-21 11:36:45.461 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-08-21 11:36:45.461 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-08-21 11:36:45.461 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-08-21 11:36:45.461 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-08-21 11:36:45.461 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-08-21 11:36:45.461 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2024-08-21 11:36:45.461 +08:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-08-21 11:36:45.461 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - Jabil.Service.Frameworks.JabilServiceFrameworksModule
+2024-08-21 11:36:45.461 +08:00 [INF]   - jb.smartchangeover.Service.HttpApi.SmartChangeOverHttpApiModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - jb.smartchangeover.Service.Application.Contracts.SmartChangeOverApplicationContractsModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-08-21 11:36:45.461 +08:00 [INF]   - SmartChangeOverEntityFrameworkCoreModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-08-21 11:36:45.461 +08:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-08-21 11:36:45.461 +08:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-08-21 11:36:45.461 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-08-21 11:36:45.461 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-08-21 11:36:48.598 +08:00 [INF] 1,升降机AE-5706状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:36:49.694 +08:00 [INF] 2,送板机 AE-5705状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:36:49.700 +08:00 [INF] 3,轨道 AE-6523状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:36:49.712 +08:00 [INF] 4,轨道 AE-5040状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:36:49.720 +08:00 [INF] 4,轨道 AE-6526状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:36:49.729 +08:00 [INF] 4,轨道 AE-5707状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:36:49.736 +08:00 [INF] 4,轨道 AE-5704状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:36:49.742 +08:00 [INF] 4,轨道 AE-5708状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:36:49.780 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:36:49.780 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:36:49.789 +08:00 [INF] Initialized all ABP modules.
+2024-08-21 11:36:49.790 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:36:49.791 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224] CmdExecStatus:Success
+2024-08-21 11:36:49.791 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:36:49.798 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][3] IsConnected faild .
+2024-08-21 11:36:49.803 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:36:49.820 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:36:49.820 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:36:49.823 +08:00 [INF] Now listening on: http://localhost:5270
+2024-08-21 11:36:49.824 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 11:36:49.824 +08:00 [INF] Hosting environment: Development
+2024-08-21 11:36:49.824 +08:00 [INF] Content root path: C:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.HttpApi.Host
+2024-08-21 11:36:49.844 +08:00 [INF] MQTT client connect
+2024-08-21 11:36:49.917 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:36:49.921 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:36:49.999 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:36:50.000 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:36:50.005 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:36:50.005 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:36:50.018 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:36:50.018 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:36:50.065 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:36:50.065 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:36:50.120 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/index.html - -
+2024-08-21 11:36:50.125 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-08-21 11:36:50.659 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/index.html - - - 200 - text/html;charset=utf-8 539.3698ms
+2024-08-21 11:36:50.735 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - -
+2024-08-21 11:36:50.964 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 228.8223ms
+2024-08-21 11:38:08.823 +08:00 [INF] User profile is available. Using 'C:\Users\3419954\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 11:38:08.905 +08:00 [INF] Loaded ABP modules:
+2024-08-21 11:38:08.905 +08:00 [INF] - jb.smartchangeover.Service.HttpApi.Host.SmartChangeOverHttpApiHostModule
+2024-08-21 11:38:08.905 +08:00 [INF]   - Jabil.Service.Shared.Hosting.Microservices.SharedHostingMicroserviceModule
+2024-08-21 11:38:08.905 +08:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-08-21 11:38:08.905 +08:00 [INF]       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-08-21 11:38:08.905 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-08-21 11:38:08.905 +08:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-08-21 11:38:08.905 +08:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-08-21 11:38:08.906 +08:00 [INF]             - Volo.Abp.Data.AbpDataModule
+2024-08-21 11:38:08.906 +08:00 [INF]               - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-08-21 11:38:08.906 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-08-21 11:38:08.906 +08:00 [INF]                 - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-08-21 11:38:08.906 +08:00 [INF]               - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-08-21 11:38:08.906 +08:00 [INF]               - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-08-21 11:38:08.906 +08:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-08-21 11:38:08.906 +08:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-08-21 11:38:08.906 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2024-08-21 11:38:08.906 +08:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2024-08-21 11:38:08.906 +08:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2024-08-21 11:38:08.906 +08:00 [INF]                     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-08-21 11:38:08.906 +08:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-08-21 11:38:08.906 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-08-21 11:38:08.906 +08:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-08-21 11:38:08.906 +08:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-08-21 11:38:08.906 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-08-21 11:38:08.906 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-08-21 11:38:08.906 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-08-21 11:38:08.906 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-08-21 11:38:08.906 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-08-21 11:38:08.906 +08:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-08-21 11:38:08.906 +08:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-08-21 11:38:08.906 +08:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-08-21 11:38:08.906 +08:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-08-21 11:38:08.906 +08:00 [INF]   - jb.smartchangeover.Service.Application.SmartChangeOverApplicationModule
+2024-08-21 11:38:08.906 +08:00 [INF]     - jb.smartchangeover.Service.Domain.SmartChangeOverDomainModule
+2024-08-21 11:38:08.906 +08:00 [INF]       - Volo.Abp.Caching.AbpCachingModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.Serialization.AbpSerializationModule
+2024-08-21 11:38:08.906 +08:00 [INF]       - jb.smartchangeover.Service.Domain.Shared.SmartChangeOverDomainSharedModule
+2024-08-21 11:38:08.906 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-08-21 11:38:08.906 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-08-21 11:38:08.906 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-08-21 11:38:08.906 +08:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-08-21 11:38:08.906 +08:00 [INF]       - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-08-21 11:38:08.906 +08:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-08-21 11:38:08.906 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-08-21 11:38:08.906 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-08-21 11:38:08.907 +08:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-08-21 11:38:08.907 +08:00 [INF]     - Jabil.Service.Frameworks.JabilServiceFrameworksModule
+2024-08-21 11:38:08.907 +08:00 [INF]   - jb.smartchangeover.Service.HttpApi.SmartChangeOverHttpApiModule
+2024-08-21 11:38:08.907 +08:00 [INF]     - jb.smartchangeover.Service.Application.Contracts.SmartChangeOverApplicationContractsModule
+2024-08-21 11:38:08.907 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-08-21 11:38:08.907 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-08-21 11:38:08.907 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-08-21 11:38:08.907 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-08-21 11:38:08.907 +08:00 [INF]   - SmartChangeOverEntityFrameworkCoreModule
+2024-08-21 11:38:08.907 +08:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-08-21 11:38:08.907 +08:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-08-21 11:38:08.907 +08:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-08-21 11:38:08.907 +08:00 [INF]     - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2024-08-21 11:38:08.907 +08:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-08-21 11:38:08.907 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-08-21 11:38:08.907 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-08-21 11:38:21.625 +08:00 [INF] 1,升降机AE-5706状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:38:21.637 +08:00 [INF] 2,送板机 AE-5705状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:38:21.640 +08:00 [INF] 3,轨道 AE-6523状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:38:21.645 +08:00 [INF] 4,轨道 AE-5040状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:38:21.648 +08:00 [INF] 4,轨道 AE-6526状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:38:21.653 +08:00 [INF] 4,轨道 AE-5707状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:38:21.661 +08:00 [INF] 4,轨道 AE-5704状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:38:21.666 +08:00 [INF] 4,轨道 AE-5708状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:38:21.713 +08:00 [INF] Initialized all ABP modules.
+2024-08-21 11:38:21.733 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224] CmdExecStatus:Success
+2024-08-21 11:38:21.733 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:38:21.733 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:38:21.733 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:38:21.733 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:38:21.733 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:38:21.736 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:38:21.738 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:38:21.741 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][3] IsConnected faild .
+2024-08-21 11:38:21.748 +08:00 [INF] Now listening on: http://localhost:5270
+2024-08-21 11:38:21.748 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 11:38:21.749 +08:00 [INF] Hosting environment: Development
+2024-08-21 11:38:21.749 +08:00 [INF] Content root path: C:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.HttpApi.Host
+2024-08-21 11:38:21.771 +08:00 [INF] MQTT client connect
+2024-08-21 11:38:21.829 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:38:21.834 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:38:21.921 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:38:21.921 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:38:21.927 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:38:21.927 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:38:21.932 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:38:21.933 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:38:21.948 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:38:21.949 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:40:41.503 +08:00 [INF] User profile is available. Using 'C:\Users\3419954\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 11:40:41.571 +08:00 [INF] Loaded ABP modules:
+2024-08-21 11:40:41.571 +08:00 [INF] - jb.smartchangeover.Service.HttpApi.Host.SmartChangeOverHttpApiHostModule
+2024-08-21 11:40:41.571 +08:00 [INF]   - Jabil.Service.Shared.Hosting.Microservices.SharedHostingMicroserviceModule
+2024-08-21 11:40:41.571 +08:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-08-21 11:40:41.571 +08:00 [INF]       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-08-21 11:40:41.571 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-08-21 11:40:41.571 +08:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-08-21 11:40:41.571 +08:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-08-21 11:40:41.572 +08:00 [INF]             - Volo.Abp.Data.AbpDataModule
+2024-08-21 11:40:41.572 +08:00 [INF]               - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-08-21 11:40:41.572 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-08-21 11:40:41.572 +08:00 [INF]                 - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-08-21 11:40:41.572 +08:00 [INF]               - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-08-21 11:40:41.572 +08:00 [INF]               - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-08-21 11:40:41.572 +08:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-08-21 11:40:41.572 +08:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-08-21 11:40:41.572 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2024-08-21 11:40:41.572 +08:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2024-08-21 11:40:41.572 +08:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2024-08-21 11:40:41.572 +08:00 [INF]                     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-08-21 11:40:41.572 +08:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-08-21 11:40:41.572 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-08-21 11:40:41.572 +08:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-08-21 11:40:41.572 +08:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-08-21 11:40:41.572 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-08-21 11:40:41.572 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-08-21 11:40:41.572 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-08-21 11:40:41.572 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-08-21 11:40:41.572 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-08-21 11:40:41.572 +08:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-08-21 11:40:41.572 +08:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-08-21 11:40:41.572 +08:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-08-21 11:40:41.572 +08:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-08-21 11:40:41.572 +08:00 [INF]   - jb.smartchangeover.Service.Application.SmartChangeOverApplicationModule
+2024-08-21 11:40:41.572 +08:00 [INF]     - jb.smartchangeover.Service.Domain.SmartChangeOverDomainModule
+2024-08-21 11:40:41.572 +08:00 [INF]       - Volo.Abp.Caching.AbpCachingModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.Serialization.AbpSerializationModule
+2024-08-21 11:40:41.572 +08:00 [INF]       - jb.smartchangeover.Service.Domain.Shared.SmartChangeOverDomainSharedModule
+2024-08-21 11:40:41.572 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-08-21 11:40:41.572 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-08-21 11:40:41.572 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-08-21 11:40:41.572 +08:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-08-21 11:40:41.572 +08:00 [INF]       - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2024-08-21 11:40:41.572 +08:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-08-21 11:40:41.573 +08:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-08-21 11:40:41.573 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-08-21 11:40:41.573 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-08-21 11:40:41.573 +08:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-08-21 11:40:41.573 +08:00 [INF]     - Jabil.Service.Frameworks.JabilServiceFrameworksModule
+2024-08-21 11:40:41.573 +08:00 [INF]   - jb.smartchangeover.Service.HttpApi.SmartChangeOverHttpApiModule
+2024-08-21 11:40:41.573 +08:00 [INF]     - jb.smartchangeover.Service.Application.Contracts.SmartChangeOverApplicationContractsModule
+2024-08-21 11:40:41.573 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-08-21 11:40:41.573 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-08-21 11:40:41.573 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-08-21 11:40:41.573 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-08-21 11:40:41.573 +08:00 [INF]   - SmartChangeOverEntityFrameworkCoreModule
+2024-08-21 11:40:41.573 +08:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-08-21 11:40:41.573 +08:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-08-21 11:40:41.573 +08:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-08-21 11:40:41.573 +08:00 [INF]     - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2024-08-21 11:40:41.573 +08:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-08-21 11:40:41.574 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-08-21 11:40:41.574 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-08-21 11:40:41.984 +08:00 [INF] 1,升降机AE-5706状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:40:42.000 +08:00 [INF] 2,送板机 AE-5705状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:40:42.004 +08:00 [INF] 3,轨道 AE-6523状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:40:42.007 +08:00 [INF] 4,轨道 AE-5040状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:40:42.010 +08:00 [INF] 4,轨道 AE-6526状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:40:42.013 +08:00 [INF] 4,轨道 AE-5707状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:40:42.017 +08:00 [INF] 4,轨道 AE-5704状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:40:42.023 +08:00 [INF] 4,轨道 AE-5708状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:40:42.046 +08:00 [INF] Initialized all ABP modules.
+2024-08-21 11:40:42.065 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224] CmdExecStatus:Success
+2024-08-21 11:40:42.066 +08:00 [INF] Now listening on: http://localhost:5270
+2024-08-21 11:40:42.066 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 11:40:42.067 +08:00 [INF] Hosting environment: Development
+2024-08-21 11:40:42.067 +08:00 [INF] Content root path: C:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.HttpApi.Host
+2024-08-21 11:40:42.071 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:40:42.071 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:40:42.071 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:40:42.074 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:40:42.080 +08:00 [INF] MQTT client connect
+2024-08-21 11:40:42.171 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:40:42.175 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:40:42.237 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:40:42.237 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:40:42.248 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:40:42.258 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:40:42.265 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:40:42.265 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:40:42.284 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:40:42.284 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:40:42.289 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/index.html - -
+2024-08-21 11:40:42.293 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-08-21 11:40:42.579 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/index.html - - - 200 - text/html;charset=utf-8 289.9000ms
+2024-08-21 11:40:42.665 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - -
+2024-08-21 11:40:42.842 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.4749ms
+2024-08-21 11:40:51.319 +08:00 [INF] 4,轨道 AE-5707状态由[Runnling]切换到[Shutdown]，状态改变，上报状态...
+2024-08-21 11:41:27.325 +08:00 [INF] 4,轨道 AE-5707状态由[Shutdown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:42:05.331 +08:00 [INF] 4,轨道 AE-5707状态由[Runnling]切换到[Shutdown]，状态改变，上报状态...
+2024-08-21 11:42:08.334 +08:00 [INF] 4,轨道 AE-5707状态由[Shutdown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:43:31.845 +08:00 [INF] User profile is available. Using 'C:\Users\3419954\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 11:43:31.931 +08:00 [INF] Loaded ABP modules:
+2024-08-21 11:43:31.931 +08:00 [INF] - jb.smartchangeover.Service.HttpApi.Host.SmartChangeOverHttpApiHostModule
+2024-08-21 11:43:31.931 +08:00 [INF]   - Jabil.Service.Shared.Hosting.Microservices.SharedHostingMicroserviceModule
+2024-08-21 11:43:31.931 +08:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-08-21 11:43:31.931 +08:00 [INF]       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-08-21 11:43:31.931 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-08-21 11:43:31.931 +08:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-08-21 11:43:31.931 +08:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-08-21 11:43:31.931 +08:00 [INF]             - Volo.Abp.Data.AbpDataModule
+2024-08-21 11:43:31.931 +08:00 [INF]               - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-08-21 11:43:31.931 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-08-21 11:43:31.931 +08:00 [INF]                 - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-08-21 11:43:31.931 +08:00 [INF]               - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-08-21 11:43:31.931 +08:00 [INF]               - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-08-21 11:43:31.931 +08:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-08-21 11:43:31.931 +08:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-08-21 11:43:31.931 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2024-08-21 11:43:31.931 +08:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2024-08-21 11:43:31.931 +08:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2024-08-21 11:43:31.931 +08:00 [INF]                     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-08-21 11:43:31.931 +08:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-08-21 11:43:31.931 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-08-21 11:43:31.931 +08:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-08-21 11:43:31.931 +08:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-08-21 11:43:31.931 +08:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-08-21 11:43:31.931 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-08-21 11:43:31.931 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-08-21 11:43:31.931 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-08-21 11:43:31.931 +08:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-08-21 11:43:31.931 +08:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-08-21 11:43:31.931 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-08-21 11:43:31.931 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-08-21 11:43:31.931 +08:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-08-21 11:43:31.931 +08:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-08-21 11:43:31.931 +08:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-08-21 11:43:31.931 +08:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-08-21 11:43:31.931 +08:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-08-21 11:43:31.931 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-08-21 11:43:31.931 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-08-21 11:43:31.931 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-08-21 11:43:31.931 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-08-21 11:43:31.931 +08:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-08-21 11:43:31.931 +08:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-08-21 11:43:31.931 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-08-21 11:43:31.931 +08:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-08-21 11:43:31.932 +08:00 [INF]   - jb.smartchangeover.Service.Application.SmartChangeOverApplicationModule
+2024-08-21 11:43:31.932 +08:00 [INF]     - jb.smartchangeover.Service.Domain.SmartChangeOverDomainModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.Caching.AbpCachingModule
+2024-08-21 11:43:31.932 +08:00 [INF]         - Volo.Abp.Serialization.AbpSerializationModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - jb.smartchangeover.Service.Domain.Shared.SmartChangeOverDomainSharedModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-08-21 11:43:31.932 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-08-21 11:43:31.932 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-08-21 11:43:31.932 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-08-21 11:43:31.932 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-08-21 11:43:31.932 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-08-21 11:43:31.932 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-08-21 11:43:31.932 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2024-08-21 11:43:31.932 +08:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-08-21 11:43:31.932 +08:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-08-21 11:43:31.932 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-08-21 11:43:31.932 +08:00 [INF]     - Jabil.Service.Frameworks.JabilServiceFrameworksModule
+2024-08-21 11:43:31.932 +08:00 [INF]   - jb.smartchangeover.Service.HttpApi.SmartChangeOverHttpApiModule
+2024-08-21 11:43:31.932 +08:00 [INF]     - jb.smartchangeover.Service.Application.Contracts.SmartChangeOverApplicationContractsModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-08-21 11:43:31.932 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-08-21 11:43:31.932 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-08-21 11:43:31.932 +08:00 [INF]   - SmartChangeOverEntityFrameworkCoreModule
+2024-08-21 11:43:31.932 +08:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-08-21 11:43:31.932 +08:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-08-21 11:43:31.932 +08:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-08-21 11:43:31.932 +08:00 [INF]     - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2024-08-21 11:43:31.932 +08:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-08-21 11:43:31.932 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-08-21 11:43:31.932 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-08-21 11:43:56.891 +08:00 [INF] User profile is available. Using 'C:\Users\3419954\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 11:43:56.959 +08:00 [INF] Loaded ABP modules:
+2024-08-21 11:43:56.960 +08:00 [INF] - jb.smartchangeover.Service.HttpApi.Host.SmartChangeOverHttpApiHostModule
+2024-08-21 11:43:56.960 +08:00 [INF]   - Jabil.Service.Shared.Hosting.Microservices.SharedHostingMicroserviceModule
+2024-08-21 11:43:56.960 +08:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-08-21 11:43:56.960 +08:00 [INF]       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-08-21 11:43:56.960 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-08-21 11:43:56.960 +08:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-08-21 11:43:56.960 +08:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-08-21 11:43:56.960 +08:00 [INF]             - Volo.Abp.Data.AbpDataModule
+2024-08-21 11:43:56.960 +08:00 [INF]               - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-08-21 11:43:56.960 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-08-21 11:43:56.960 +08:00 [INF]                 - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-08-21 11:43:56.960 +08:00 [INF]               - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-08-21 11:43:56.960 +08:00 [INF]               - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-08-21 11:43:56.960 +08:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-08-21 11:43:56.960 +08:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-08-21 11:43:56.960 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2024-08-21 11:43:56.960 +08:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2024-08-21 11:43:56.960 +08:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2024-08-21 11:43:56.960 +08:00 [INF]                     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-08-21 11:43:56.960 +08:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-08-21 11:43:56.960 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-08-21 11:43:56.960 +08:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-08-21 11:43:56.960 +08:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-08-21 11:43:56.960 +08:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-08-21 11:43:56.960 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-08-21 11:43:56.960 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-08-21 11:43:56.960 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-08-21 11:43:56.960 +08:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-08-21 11:43:56.960 +08:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-08-21 11:43:56.960 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-08-21 11:43:56.960 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-08-21 11:43:56.960 +08:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-08-21 11:43:56.960 +08:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-08-21 11:43:56.960 +08:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-08-21 11:43:56.960 +08:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-08-21 11:43:56.960 +08:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-08-21 11:43:56.960 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-08-21 11:43:56.960 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-08-21 11:43:56.960 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-08-21 11:43:56.960 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-08-21 11:43:56.960 +08:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-08-21 11:43:56.960 +08:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-08-21 11:43:56.960 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-08-21 11:43:56.960 +08:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-08-21 11:43:56.960 +08:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-08-21 11:43:56.960 +08:00 [INF]   - jb.smartchangeover.Service.Application.SmartChangeOverApplicationModule
+2024-08-21 11:43:56.961 +08:00 [INF]     - jb.smartchangeover.Service.Domain.SmartChangeOverDomainModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - Volo.Abp.Caching.AbpCachingModule
+2024-08-21 11:43:56.961 +08:00 [INF]         - Volo.Abp.Serialization.AbpSerializationModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - jb.smartchangeover.Service.Domain.Shared.SmartChangeOverDomainSharedModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-08-21 11:43:56.961 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-08-21 11:43:56.961 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-08-21 11:43:56.961 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-08-21 11:43:56.961 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-08-21 11:43:56.961 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-08-21 11:43:56.961 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-08-21 11:43:56.961 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2024-08-21 11:43:56.961 +08:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-08-21 11:43:56.961 +08:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-08-21 11:43:56.961 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-08-21 11:43:56.961 +08:00 [INF]     - Jabil.Service.Frameworks.JabilServiceFrameworksModule
+2024-08-21 11:43:56.961 +08:00 [INF]   - jb.smartchangeover.Service.HttpApi.SmartChangeOverHttpApiModule
+2024-08-21 11:43:56.961 +08:00 [INF]     - jb.smartchangeover.Service.Application.Contracts.SmartChangeOverApplicationContractsModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-08-21 11:43:56.961 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-08-21 11:43:56.961 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-08-21 11:43:56.961 +08:00 [INF]   - SmartChangeOverEntityFrameworkCoreModule
+2024-08-21 11:43:56.961 +08:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-08-21 11:43:56.961 +08:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-08-21 11:43:56.961 +08:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-08-21 11:43:56.961 +08:00 [INF]     - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2024-08-21 11:43:56.961 +08:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-08-21 11:43:56.961 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-08-21 11:43:56.961 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-08-21 11:43:57.384 +08:00 [INF] 1,升降机AE-5706状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:43:57.394 +08:00 [INF] 2,送板机 AE-5705状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:43:57.399 +08:00 [INF] 3,轨道 AE-6523状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:43:57.408 +08:00 [INF] 4,轨道 AE-5040状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:43:57.414 +08:00 [INF] 4,轨道 AE-6526状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:43:57.418 +08:00 [INF] 4,轨道 AE-5707状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:43:57.427 +08:00 [INF] 4,轨道 AE-5704状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:43:57.438 +08:00 [INF] 4,轨道 AE-5708状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:43:57.462 +08:00 [INF] Initialized all ABP modules.
+2024-08-21 11:43:57.470 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224] CmdExecStatus:Success
+2024-08-21 11:43:57.474 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:43:57.474 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:43:57.474 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:43:57.477 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:43:57.483 +08:00 [INF] Now listening on: http://localhost:5270
+2024-08-21 11:43:57.483 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 11:43:57.483 +08:00 [INF] Hosting environment: Development
+2024-08-21 11:43:57.483 +08:00 [INF] Content root path: C:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.HttpApi.Host
+2024-08-21 11:43:57.488 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:43:57.494 +08:00 [INF] MQTT client connect
+2024-08-21 11:43:57.579 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:43:57.583 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:43:57.647 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:43:57.647 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:43:57.654 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:43:57.654 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:43:57.661 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:43:57.662 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:43:57.672 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:43:57.672 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:43:57.731 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/index.html - -
+2024-08-21 11:43:57.735 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-08-21 11:43:58.019 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/index.html - - - 200 - text/html;charset=utf-8 287.9315ms
+2024-08-21 11:43:58.099 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - -
+2024-08-21 11:43:58.277 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.6956ms
+2024-08-21 11:44:20.101 +08:00 [INF] User profile is available. Using 'C:\Users\3419954\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 11:44:20.189 +08:00 [INF] Loaded ABP modules:
+2024-08-21 11:44:20.189 +08:00 [INF] - jb.smartchangeover.Service.HttpApi.Host.SmartChangeOverHttpApiHostModule
+2024-08-21 11:44:20.189 +08:00 [INF]   - Jabil.Service.Shared.Hosting.Microservices.SharedHostingMicroserviceModule
+2024-08-21 11:44:20.189 +08:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-08-21 11:44:20.189 +08:00 [INF]       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-08-21 11:44:20.189 +08:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-08-21 11:44:20.189 +08:00 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-08-21 11:44:20.189 +08:00 [INF]           - Volo.Abp.Auditing.AbpAuditingModule
+2024-08-21 11:44:20.189 +08:00 [INF]             - Volo.Abp.Data.AbpDataModule
+2024-08-21 11:44:20.189 +08:00 [INF]               - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-08-21 11:44:20.189 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-08-21 11:44:20.189 +08:00 [INF]                 - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-08-21 11:44:20.189 +08:00 [INF]               - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-08-21 11:44:20.189 +08:00 [INF]               - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-08-21 11:44:20.189 +08:00 [INF]             - Volo.Abp.Json.AbpJsonModule
+2024-08-21 11:44:20.189 +08:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2024-08-21 11:44:20.189 +08:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2024-08-21 11:44:20.189 +08:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2024-08-21 11:44:20.189 +08:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2024-08-21 11:44:20.189 +08:00 [INF]                     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-08-21 11:44:20.189 +08:00 [INF]             - Volo.Abp.Threading.AbpThreadingModule
+2024-08-21 11:44:20.189 +08:00 [INF]             - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-08-21 11:44:20.189 +08:00 [INF]           - Volo.Abp.Http.AbpHttpModule
+2024-08-21 11:44:20.189 +08:00 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-08-21 11:44:20.189 +08:00 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2024-08-21 11:44:20.189 +08:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-08-21 11:44:20.189 +08:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-08-21 11:44:20.189 +08:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2024-08-21 11:44:20.189 +08:00 [INF]           - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-08-21 11:44:20.189 +08:00 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-08-21 11:44:20.189 +08:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-08-21 11:44:20.189 +08:00 [INF]           - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-08-21 11:44:20.189 +08:00 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-08-21 11:44:20.189 +08:00 [INF]           - Volo.Abp.UI.AbpUiModule
+2024-08-21 11:44:20.189 +08:00 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-08-21 11:44:20.189 +08:00 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2024-08-21 11:44:20.189 +08:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2024-08-21 11:44:20.189 +08:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2024-08-21 11:44:20.189 +08:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2024-08-21 11:44:20.189 +08:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-08-21 11:44:20.189 +08:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-08-21 11:44:20.189 +08:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-08-21 11:44:20.189 +08:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-08-21 11:44:20.189 +08:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2024-08-21 11:44:20.189 +08:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-08-21 11:44:20.190 +08:00 [INF]   - jb.smartchangeover.Service.Application.SmartChangeOverApplicationModule
+2024-08-21 11:44:20.190 +08:00 [INF]     - jb.smartchangeover.Service.Domain.SmartChangeOverDomainModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.Caching.AbpCachingModule
+2024-08-21 11:44:20.190 +08:00 [INF]         - Volo.Abp.Serialization.AbpSerializationModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - jb.smartchangeover.Service.Domain.Shared.SmartChangeOverDomainSharedModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-08-21 11:44:20.190 +08:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-08-21 11:44:20.190 +08:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-08-21 11:44:20.190 +08:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2024-08-21 11:44:20.190 +08:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-08-21 11:44:20.190 +08:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-08-21 11:44:20.190 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-08-21 11:44:20.190 +08:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2024-08-21 11:44:20.190 +08:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-08-21 11:44:20.190 +08:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-08-21 11:44:20.190 +08:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-08-21 11:44:20.190 +08:00 [INF]     - Jabil.Service.Frameworks.JabilServiceFrameworksModule
+2024-08-21 11:44:20.190 +08:00 [INF]   - jb.smartchangeover.Service.HttpApi.SmartChangeOverHttpApiModule
+2024-08-21 11:44:20.190 +08:00 [INF]     - jb.smartchangeover.Service.Application.Contracts.SmartChangeOverApplicationContractsModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-08-21 11:44:20.190 +08:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-08-21 11:44:20.190 +08:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-08-21 11:44:20.190 +08:00 [INF]   - SmartChangeOverEntityFrameworkCoreModule
+2024-08-21 11:44:20.190 +08:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-08-21 11:44:20.190 +08:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-08-21 11:44:20.190 +08:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-08-21 11:44:20.190 +08:00 [INF]     - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2024-08-21 11:44:20.190 +08:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-08-21 11:44:20.190 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-08-21 11:44:20.190 +08:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-08-21 11:44:20.835 +08:00 [INF] 1,升降机AE-5706状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:44:20.843 +08:00 [INF] 2,送板机 AE-5705状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:44:20.848 +08:00 [INF] 3,轨道 AE-6523状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:44:20.856 +08:00 [INF] 4,轨道 AE-5040状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:44:20.863 +08:00 [INF] 4,轨道 AE-6526状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:44:20.868 +08:00 [INF] 4,轨道 AE-5707状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:44:20.872 +08:00 [INF] 4,轨道 AE-5704状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:44:20.876 +08:00 [INF] 4,轨道 AE-5708状态由[Unknown]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:44:20.924 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224] CmdExecStatus:Success
+2024-08-21 11:44:20.924 +08:00 [INF] Initialized all ABP modules.
+2024-08-21 11:44:20.928 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:44:20.928 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:44:20.928 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:44:20.928 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:44:20.933 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][3] IsConnected faild .
+2024-08-21 11:44:20.947 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:44:20.947 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:44:20.959 +08:00 [INF] Now listening on: http://localhost:5270
+2024-08-21 11:44:20.960 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 11:44:20.960 +08:00 [INF] Hosting environment: Development
+2024-08-21 11:44:20.960 +08:00 [INF] Content root path: C:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.HttpApi.Host
+2024-08-21 11:44:20.963 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:44:20.987 +08:00 [INF] MQTT client connect
+2024-08-21 11:44:21.042 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:44:21.047 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:44:21.127 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:44:21.128 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:44:21.137 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:44:21.137 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:44:21.148 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:44:21.148 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:44:21.157 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:44:21.158 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:44:50.861 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][2] IsConnected faild .
+2024-08-21 11:44:50.861 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][2] IsConnected faild .
+2024-08-21 11:44:50.863 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][2] IsConnected faild .
+2024-08-21 11:44:50.863 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][2] IsConnected faild .
+2024-08-21 11:44:50.864 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][2] IsConnected faild .
+2024-08-21 11:44:50.921 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][2] IsConnected faild .
+2024-08-21 11:44:50.921 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][2] IsConnected faild .
+2024-08-21 11:44:50.923 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][2] IsConnected faild .
+2024-08-21 11:44:50.951 +08:00 [INF] MQTT client disconnect
+2024-08-21 11:44:50.972 +08:00 [ERR] 发送心跳包异常:The client is not connected.
+   at MQTTnet.Client.MqttClient.ThrowNotConnected()
+   at MQTTnet.Client.MqttClient.PublishAsync(MqttApplicationMessage applicationMessage, CancellationToken cancellationToken)
+   at jb.smartchangeover.Service.Domain.Shared.Mqtts.MqttClientService.StartHeartBeat() in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Mqtts\MqttClientService.cs:line 242
+2024-08-21 11:44:53.108 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:44:53.109 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:44:53.155 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:44:53.155 +08:00 [ERR] 发送心跳包异常:The client is not connected.
+   at MQTTnet.Client.MqttClient.ThrowNotConnected()
+   at MQTTnet.Client.MqttClient.PublishAsync(MqttApplicationMessage applicationMessage, CancellationToken cancellationToken)
+   at jb.smartchangeover.Service.Domain.Shared.Mqtts.MqttClientService.StartHeartBeat() in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Mqtts\MqttClientService.cs:line 242
+2024-08-21 11:44:53.165 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5270/swagger/index.html - -
+2024-08-21 11:44:53.170 +08:00 [WRN] Failed to determine the https port for redirect.
+2024-08-21 11:44:53.701 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5270/swagger/index.html - - - 200 - text/html;charset=utf-8 535.7627ms
+2024-08-21 11:44:54.013 +08:00 [INF] MQTT client connect
+2024-08-21 11:44:54.031 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:44:54.032 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:44:54.100 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:44:54.101 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:44:54.110 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:44:54.110 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:44:54.118 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:44:54.119 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:44:54.130 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:44:54.130 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:46:41.723 +08:00 [INF] 4,轨道 AE-5707状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:46:41.773 +08:00 [INF] 4,轨道 AE-5708状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:46:41.775 +08:00 [ERR] [4,轨道 AE-5708] SendErrorReport [EquipmentError]:未知异常
+2024-08-21 11:46:41.825 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:46:41.891 +08:00 [ERR] [4,轨道 AE-5707][10.115.66.119]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:46:41.891 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][3] IsConnected faild .
+2024-08-21 11:46:41.915 +08:00 [INF] 4,轨道 AE-5704状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:46:41.916 +08:00 [ERR] [4,轨道 AE-5704] SendErrorReport [EquipmentError]:未知异常
+2024-08-21 11:46:41.916 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:46:41.937 +08:00 [INF] 1,升降机AE-5706状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:46:41.937 +08:00 [INF] 4,轨道 AE-5040状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:46:41.939 +08:00 [ERR] [1,升降机AE-5706] SendErrorReport [EquipmentError]:未知异常
+2024-08-21 11:46:41.939 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:46:41.939 +08:00 [INF] MQTT client disconnect
+2024-08-21 11:46:41.939 +08:00 [ERR] [4,轨道 AE-5040][10.115.66.118]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:46:41.939 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:46:41.990 +08:00 [INF] 2,送板机 AE-5705状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:46:41.990 +08:00 [INF] 3,轨道 AE-6523状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:46:41.990 +08:00 [INF] 4,轨道 AE-6526状态由[Runnling]切换到[UnknownError]，状态改变，上报状态...
+2024-08-21 11:46:41.990 +08:00 [ERR] [2,送板机 AE-5705] SendErrorReport [EquipmentError]:未知异常
+2024-08-21 11:46:41.991 +08:00 [ERR] [3,轨道 AE-6523][10.115.66.231]：ReadCore [2900] write data:1 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:46:41.992 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:46:41.991 +08:00 [ERR] [4,轨道 AE-6526] SendErrorReport [EquipmentError]:未知异常
+2024-08-21 11:46:41.992 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:46:41.992 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:46:41.994 +08:00 [ERR] [1,升降机AE-5706][10.115.66.111]：ReadCore [2450] write data:50 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:46:41.994 +08:00 [ERR] [4,轨道 AE-5704][10.115.66.87]：ReadCore [2450] write data:50 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:46:41.994 +08:00 [ERR] [4,轨道 AE-5708][10.115.66.237]：ReadCore [2450] write data:50 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:46:41.994 +08:00 [ERR] [2,送板机 AE-5705][10.115.66.224]：ReadCore [2450] write data:50 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:46:41.994 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:46:41.994 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:46:41.994 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:46:41.994 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:46:41.994 +08:00 [ERR] [4,轨道 AE-6526][10.115.66.235]：ReadCore [2450] write data:50 errror:Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at NModbus.IO.ModbusIpTransport.ReadRequestResponse(IStreamResource streamResource, IModbusLogger logger)
+   at NModbus.IO.ModbusIpTransport.ReadResponse[T]()
+   at NModbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at NModbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at jb.smartchangeover.Service.Domain.Shared.ModbusClient2000.ReadCore(UInt16 startAddress, UInt16 numberOfPoints) in c:\src\smart_change_over\jb.smartchangeover.adapter\PlcAdpService\jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\Plc\Adapter\Modbus\ModbusClient2000.cs:line 233
+2024-08-21 11:46:41.996 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:46:42.017 +08:00 [INF] 4,轨道 AE-5707状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:46:42.017 +08:00 [ERR] [4,轨道 AE-5707] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:46:42.018 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][3] IsConnected faild .
+2024-08-21 11:46:42.082 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8][3] IsConnected faild .
+2024-08-21 11:46:42.733 +08:00 [INF] 4,轨道 AE-6526状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:46:42.734 +08:00 [ERR] [4,轨道 AE-6526] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:46:42.734 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:46:42.794 +08:00 [ERR] [mqtt][in/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f][3] IsConnected faild .
+2024-08-21 11:46:42.991 +08:00 [INF] 4,轨道 AE-5704状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:46:42.991 +08:00 [INF] 4,轨道 AE-5708状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:46:42.991 +08:00 [INF] 1,升降机AE-5706状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:46:42.992 +08:00 [ERR] [4,轨道 AE-5708] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:46:42.992 +08:00 [ERR] [1,升降机AE-5706] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:46:42.992 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:46:42.992 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:46:42.992 +08:00 [ERR] [4,轨道 AE-5704] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:46:42.992 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:46:42.994 +08:00 [INF] 4,轨道 AE-5040状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:46:42.994 +08:00 [INF] 3,轨道 AE-6523状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:46:42.994 +08:00 [INF] 2,送板机 AE-5705状态由[UnknownError]切换到[Runnling]，状态改变，上报状态...
+2024-08-21 11:46:42.994 +08:00 [ERR] [4,轨道 AE-5040] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:46:42.994 +08:00 [ERR] [3,轨道 AE-6523] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:46:42.994 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:46:42.995 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:46:42.994 +08:00 [ERR] [2,送板机 AE-5705] SendErrorCleardReport [EquipmentErrorCleard]:未知异常
+2024-08-21 11:46:42.995 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:46:43.056 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6][3] IsConnected faild .
+2024-08-21 11:46:43.061 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861][3] IsConnected faild .
+2024-08-21 11:46:43.061 +08:00 [ERR] [mqtt][in/conveyor/3a133caf-32fa-cb62-4222-21e618d33da3][3] IsConnected faild .
+2024-08-21 11:46:43.065 +08:00 [ERR] [mqtt][in/conveyor/3a133cb0-299e-6f9b-6edf-ad6dc3962120][3] IsConnected faild .
+2024-08-21 11:46:43.065 +08:00 [ERR] [mqtt][in/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515][3] IsConnected faild .
+2024-08-21 11:46:43.092 +08:00 [ERR] [mqtt][in/conveyor/3a133cb7-a611-e95a-0044-4c05d3e913f7][3] IsConnected faild .
+2024-08-21 11:46:44.979 +08:00 [INF] MQTT client connect
+2024-08-21 11:46:44.996 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:46:44.997 +08:00 [WRN] [Mqtt][out/conveyor/3a133cb7-7cc0-3f14-f183-2ea869efe1b6] The message is expired:{"data":0,"id":"ff72a05d-7cb8-4200-bdc1-9347fe49868e","kind":"conveyor","hostName":null,"messageType":"Shutdown","sender":"3a133cb7-7cc0-3f14-f183-2ea869efe1b6","timeStamp":"2024-08-20 16:40:15","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:46:45.069 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:46:45.071 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-7b22-92ad-363a-26a4f922bb4f] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"300","unit":"mm"}]},"id":"e0a38786-11e0-4231-8a24-97d743289afa","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-7b22-92ad-363a-26a4f922bb4f","timeStamp":"2024-08-20 17:01:28","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:46:45.080 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:46:45.081 +08:00 [WRN] [Mqtt][out/conveyor/3a133cba-dcb6-c442-280b-92d6aff4bfc8] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"199.3","unit":"mm"}]},"id":"481e4e8f-62d0-4ed5-8f3a-8df50826e896","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cba-dcb6-c442-280b-92d6aff4bfc8","timeStamp":"2024-08-20 17:26:10","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:46:45.094 +08:00 [DBG] [Mqtt] Received Message:[{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:46:45.094 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-38a2-227f-9a22-b281f2bac515] The message is expired:{"data":{"parameters":[{"key":"widthlane1","value":"230","unit":"mm"}]},"id":"4020c84a-ecb4-4264-8bf6-b749cf5cf47c","kind":"conveyor","hostName":null,"messageType":"AdjustParameter","sender":"3a133cbb-38a2-227f-9a22-b281f2bac515","timeStamp":"2024-08-20 17:46:20","panelId":"","source":"PlcAdapterServer"}.
+
+2024-08-21 11:46:45.115 +08:00 [DBG] [Mqtt] Received Message:[{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}]
+2024-08-21 11:46:45.115 +08:00 [WRN] [Mqtt][out/conveyor/3a133cbb-8291-9eed-c7bc-4813e9f2a861] The message is expired:{"data":0,"id":"1ff614b4-0402-4d5a-bbb9-ea8d5d81bf36","kind":"conveyor","hostName":null,"messageType":"Report","sender":"3a133cbb-8291-9eed-c7bc-4813e9f2a861","timeStamp":"2024-08-20 18:05:16","panelId":"","source":"PlcAdapterServer"}.
+

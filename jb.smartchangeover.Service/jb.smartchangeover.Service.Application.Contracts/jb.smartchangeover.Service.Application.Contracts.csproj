@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>jb.smartchangeover.Service.Application.Contracts</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Handlers\DekConfigDto.cs" />
+	  <Compile Remove="Handlers\WebapiReponse.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!--<PackageReference Include="Abp" Version="7.3.0" />-->
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc.Contracts" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.ObjectExtending" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.Account.Application.Contracts" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.Caching" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.Identity.Application.Contracts" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.PermissionManagement.Application.Contracts" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Magicodes.IE.Excel.AspNetCore" Version="$(MagicodesIEExcelVersion)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\jb.smartchangeover.Service.Domain.Shared\jb.smartchangeover.Service.Domain.Shared.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Jabil.Service.Extension">
+	    <HintPath>..\..\JB.Library\Jabil.Service.Extension.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Handlers\" />
+	</ItemGroup>
+
+</Project>

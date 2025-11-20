@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>jb.smartchangeover.Service.Domain.Shared</RootNamespace>
+    <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EquimentAdapter\**" />
+    <Compile Remove="Equipment\**" />
+    <EmbeddedResource Remove="EquimentAdapter\**" />
+    <EmbeddedResource Remove="Equipment\**" />
+    <None Remove="EquimentAdapter\**" />
+    <None Remove="Equipment\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Equipment\Configs\MqttConfig.cs" />
+    <Compile Remove="Modbus\Base\Model\Connection.cs" />
+    <Compile Remove="Plc\Adapter\FX3D\FX3AsciiClient.cs" />
+    <Compile Remove="Plc\Adapter\FX3D\FX3DeviceType.cs" />
+    <Compile Remove="Plc\Adapter\FX5D\FX5AsciiClient.cs" />
+    <Compile Remove="Plc\Adapter\FX5D\FX5DeviceType.cs" />
+    <Compile Remove="Plc\Adapter\Modbus\FX3AsciiClient.cs" />
+    <Compile Remove="Plc\Adapter\Modbus\FX3DeviceType.cs" />
+    <Compile Remove="Plc\ConveroyClient.cs" />
+    <Compile Remove="Plc\EasyNetClient.cs" />
+    <Compile Remove="Plc\ModbusClient.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Equipment\Configs\AdapterConfig.cs" />
+    <Compile Include="Equipment\Configs\EquipmentConfig.cs" />
+    <Compile Include="Equipment\Configs\IEquipmentConfig.cs" />
+    <Compile Include="Equipment\Configs\PlcConfig.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="6.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
+    <PackageReference Include="MQTTnet" Version="4.3.3.952" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NModbus" Version="3.0.81" />
+    <PackageReference Include="SuperSocket" Version="2.0.0-beta.18" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.22.1" />
+    <PackageReference Include="Volo.Abp.Identity.Domain.Shared" Version="5.3.0" />
+    <PackageReference Include="Volo.Abp.IdentityServer.Domain.Shared" Version="5.3.0" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.Domain.Shared" Version="5.3.0" />
+    <PackageReference Include="Volo.Abp.AuditLogging.Domain.Shared" Version="5.3.0" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Domain.Shared" Version="5.3.0" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Domain.Shared" Version="5.3.0" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Shared" Version="5.3.0" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Domain.Shared" Version="5.3.0" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="6.0.5" />
+  </ItemGroup>
+</Project>

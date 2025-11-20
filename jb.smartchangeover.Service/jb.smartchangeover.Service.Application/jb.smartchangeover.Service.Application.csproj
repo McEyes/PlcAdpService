@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>jb.smartchangeover.Service.Application</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Handlers\Dtos\**" />
+	  <Compile Remove="Mqtts\MsgDataModel\**" />
+	  <EmbeddedResource Remove="Handlers\Dtos\**" />
+	  <EmbeddedResource Remove="Mqtts\MsgDataModel\**" />
+	  <None Remove="Handlers\Dtos\**" />
+	  <None Remove="Mqtts\MsgDataModel\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Handlers\DekExecuteHandler.cs" />
+	  <Compile Remove="Handlers\PlcAppService.cs" />
+	  <Compile Remove="Handlers\PlcModbusService.cs" />
+	  <Compile Remove="Mqtts\MQTTClient.cs" />
+	  <Compile Remove="Mqtts\MqttClientService.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\jb.smartchangeover.Service.Domain\jb.smartchangeover.Service.Domain.csproj" />
+		<ProjectReference Include="..\jb.smartchangeover.Service.Application.Contracts\jb.smartchangeover.Service.Application.Contracts.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EasyModbusTCP" Version="5.6.0" />
+		<PackageReference Include="Minio" Version="$(MinioPackageVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
+		<PackageReference Include="MQTTnet" Version="4.3.3.952" />
+		<PackageReference Include="SuperSocket.Server" Version="2.0.0-*" />
+		<PackageReference Include="Volo.Abp.Account.Application" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc.Contracts" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.Identity.Application" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="NEST" Version="$(NESTVersion)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Jabil.Service.Extension">
+	    <HintPath>..\..\JB.Library\Jabil.Service.Extension.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Jabil.Service.Frameworks">
+	    <HintPath>..\..\JB.Library\Jabil.Service.Frameworks.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <Folder Include="Extensions\" />
+	</ItemGroup>
+</Project>

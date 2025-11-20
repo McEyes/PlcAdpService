@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jb.smartchangeover.Service.Application", "jb.smartchangeover.Service\jb.smartchangeover.Service.Application\jb.smartchangeover.Service.Application.csproj", "{9302D121-94D3-4B46-A06C-9E08705A1986}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jb.smartchangeover.Service.Application.Contracts", "jb.smartchangeover.Service\jb.smartchangeover.Service.Application.Contracts\jb.smartchangeover.Service.Application.Contracts.csproj", "{80C99E74-1433-4627-AB0A-930ED6250C3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jb.smartchangeover.Service.Domain", "jb.smartchangeover.Service\jb.smartchangeover.Service.Domain\jb.smartchangeover.Service.Domain.csproj", "{3295A51F-3686-4A29-AD87-5884BB95B0CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jb.smartchangeover.Service.Domain.Shared", "jb.smartchangeover.Service\jb.smartchangeover.Service.Domain.Shared\jb.smartchangeover.Service.Domain.Shared.csproj", "{7378C280-C466-4E06-A435-384FB7039C51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jb.smartchangeover.Service.HttpApi", "jb.smartchangeover.Service\jb.smartchangeover.Service.HttpApi\jb.smartchangeover.Service.HttpApi.csproj", "{F901FD10-00A8-4331-B8E9-BE37B9D5D3EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jb.smartchangeover.Service.HttpApi.Host", "jb.smartchangeover.Service\jb.smartchangeover.Service.HttpApi.Host\jb.smartchangeover.Service.HttpApi.Host.csproj", "{31ADBBF0-205A-4A27-BC87-6237F7E41E09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jb.smartchangeover.Service.EntityFrameworkCore", "jb.smartchangeover.Service\jb.smartchangeover.Service.EntityFrameworkCore\jb.smartchangeover.Service.EntityFrameworkCore.csproj", "{578271B1-742C-4210-9432-9279BC6C9905}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jb.smartchangeover.Service.DbMigrator", "jb.smartchangeover.Service\jb.smartchangeover.Service.DbMigrator\jb.smartchangeover.Service.DbMigrator.csproj", "{C5F3FAF9-5B66-4BDB-B417-14E2EC27102E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{670ADFD8-D9E2-4EAB-B131-755FEA3F95C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EFC9D75E-584E-43C7-9EA6-0882F20F0AD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9302D121-94D3-4B46-A06C-9E08705A1986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9302D121-94D3-4B46-A06C-9E08705A1986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9302D121-94D3-4B46-A06C-9E08705A1986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9302D121-94D3-4B46-A06C-9E08705A1986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C99E74-1433-4627-AB0A-930ED6250C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C99E74-1433-4627-AB0A-930ED6250C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C99E74-1433-4627-AB0A-930ED6250C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C99E74-1433-4627-AB0A-930ED6250C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3295A51F-3686-4A29-AD87-5884BB95B0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3295A51F-3686-4A29-AD87-5884BB95B0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3295A51F-3686-4A29-AD87-5884BB95B0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3295A51F-3686-4A29-AD87-5884BB95B0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7378C280-C466-4E06-A435-384FB7039C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7378C280-C466-4E06-A435-384FB7039C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7378C280-C466-4E06-A435-384FB7039C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7378C280-C466-4E06-A435-384FB7039C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F901FD10-00A8-4331-B8E9-BE37B9D5D3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F901FD10-00A8-4331-B8E9-BE37B9D5D3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F901FD10-00A8-4331-B8E9-BE37B9D5D3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F901FD10-00A8-4331-B8E9-BE37B9D5D3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31ADBBF0-205A-4A27-BC87-6237F7E41E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31ADBBF0-205A-4A27-BC87-6237F7E41E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31ADBBF0-205A-4A27-BC87-6237F7E41E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31ADBBF0-205A-4A27-BC87-6237F7E41E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578271B1-742C-4210-9432-9279BC6C9905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578271B1-742C-4210-9432-9279BC6C9905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578271B1-742C-4210-9432-9279BC6C9905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578271B1-742C-4210-9432-9279BC6C9905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F3FAF9-5B66-4BDB-B417-14E2EC27102E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F3FAF9-5B66-4BDB-B417-14E2EC27102E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F3FAF9-5B66-4BDB-B417-14E2EC27102E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F3FAF9-5B66-4BDB-B417-14E2EC27102E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF0CC02D-2B38-4D37-B737-D65F5ED79F25}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31ADBBF0-205A-4A27-BC87-6237F7E41E09} = {670ADFD8-D9E2-4EAB-B131-755FEA3F95C3}
+		{9302D121-94D3-4B46-A06C-9E08705A1986} = {EFC9D75E-584E-43C7-9EA6-0882F20F0AD4}
+		{80C99E74-1433-4627-AB0A-930ED6250C3D} = {EFC9D75E-584E-43C7-9EA6-0882F20F0AD4}
+		{C5F3FAF9-5B66-4BDB-B417-14E2EC27102E} = {EFC9D75E-584E-43C7-9EA6-0882F20F0AD4}
+		{3295A51F-3686-4A29-AD87-5884BB95B0CE} = {EFC9D75E-584E-43C7-9EA6-0882F20F0AD4}
+		{7378C280-C466-4E06-A435-384FB7039C51} = {EFC9D75E-584E-43C7-9EA6-0882F20F0AD4}
+		{578271B1-742C-4210-9432-9279BC6C9905} = {EFC9D75E-584E-43C7-9EA6-0882F20F0AD4}
+		{F901FD10-00A8-4331-B8E9-BE37B9D5D3EF} = {EFC9D75E-584E-43C7-9EA6-0882F20F0AD4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|c:\\src\\smart_change_over\\jb.smartchangeover.adapter\\plcadpservice\\jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\plcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\plcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\netclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\netclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\adapter\\scanner\\scannerasciiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\adapter\\scanner\\scannerasciiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9302D121-94D3-4B46-A06C-9E08705A1986}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Application\\jb.smartchangeover.Service.Application.csproj|C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.service\\jb.smartchangeover.service.application\\handlers\\plchandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9302D121-94D3-4B46-A06C-9E08705A1986}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Application\\jb.smartchangeover.Service.Application.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.application\\handlers\\plchandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\commons\\jbresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\commons\\jbresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\adapter\\scanner\\scannerasciihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\adapter\\scanner\\scannerasciihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\models\\cmdcacheitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\models\\cmdcacheitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\adapter\\modbus\\modbusclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\plc\\adapter\\modbus\\modbusclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901FD10-00A8-4331-B8E9-BE37B9D5D3EF}|jb.smartchangeover.Service\\jb.smartchangeover.Service.HttpApi\\jb.smartchangeover.Service.HttpApi.csproj|C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.service\\jb.smartchangeover.service.httpapi\\controllers\\plccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901FD10-00A8-4331-B8E9-BE37B9D5D3EF}|jb.smartchangeover.Service\\jb.smartchangeover.Service.HttpApi\\jb.smartchangeover.Service.HttpApi.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.httpapi\\controllers\\plccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\equipment\\configs\\iequipmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\equipment\\configs\\iequipmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\equipment\\configs\\equipmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7378C280-C466-4E06-A435-384FB7039C51}|jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\jb.smartchangeover.Service.Domain.Shared.csproj|solutionrelative:jb.smartchangeover.service\\jb.smartchangeover.service.domain.shared\\equipment\\configs\\equipmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 361,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JbResult.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Commons\\JbResult.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Commons\\JbResult.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Commons\\JbResult.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Commons\\JbResult.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAWwFsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T06:23:28.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScannerAsciiHelper.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Scanner\\ScannerAsciiHelper.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Scanner\\ScannerAsciiHelper.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Scanner\\ScannerAsciiHelper.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Scanner\\ScannerAsciiHelper.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwDwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T03:19:01.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CmdCacheItem.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Models\\CmdCacheItem.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Models\\CmdCacheItem.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Models\\CmdCacheItem.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Models\\CmdCacheItem.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAApwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T03:44:47.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScannerAsciiClient.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Scanner\\ScannerAsciiClient.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Scanner\\ScannerAsciiClient.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Scanner\\ScannerAsciiClient.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Scanner\\ScannerAsciiClient.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAEwHcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:12:15.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlcClient.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\PlcClient.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\PlcClient.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\PlcClient.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\PlcClient.cs",
+              "ViewState": "AQIAAAgCAAAAAAAAAAAkwA4CAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:04:26.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModbusClient.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Modbus\\ModbusClient.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Modbus\\ModbusClient.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Modbus\\ModbusClient.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\Adapter\\Modbus\\ModbusClient.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAQwHUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:21:55.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlcHandler.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Application\\Handlers\\PlcHandler.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Application\\Handlers\\PlcHandler.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Application\\Handlers\\PlcHandler.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Application\\Handlers\\PlcHandler.cs",
+              "ViewState": "AQIAADcDAAAAAAAAAIAywEgDAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:18:01.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlcController.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.HttpApi\\Controllers\\PlcController.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.HttpApi\\Controllers\\PlcController.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.HttpApi\\Controllers\\PlcController.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.HttpApi\\Controllers\\PlcController.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAgwNIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T03:32:48.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NetClient.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\NetClient.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\NetClient.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\NetClient.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Plc\\NetClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:40:08.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEquipmentConfig.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Equipment\\Configs\\IEquipmentConfig.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Equipment\\Configs\\IEquipmentConfig.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Equipment\\Configs\\IEquipmentConfig.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Equipment\\Configs\\IEquipmentConfig.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAIBYwE4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:56:05.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EquipmentConfig.cs",
+              "DocumentMoniker": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Equipment\\Configs\\EquipmentConfig.cs",
+              "RelativeDocumentMoniker": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Equipment\\Configs\\EquipmentConfig.cs",
+              "ToolTip": "C:\\src\\smart_change_over\\jb.smartchangeover.adapter\\PlcAdpService\\jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Equipment\\Configs\\EquipmentConfig.cs",
+              "RelativeToolTip": "jb.smartchangeover.Service\\jb.smartchangeover.Service.Domain.Shared\\Equipment\\Configs\\EquipmentConfig.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAA1wJkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:53:11.568Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

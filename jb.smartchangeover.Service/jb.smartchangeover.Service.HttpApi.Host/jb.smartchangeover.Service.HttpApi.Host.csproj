@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<RootNamespace>jb.smartchangeover.Service.HttpApi.Host</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup Condition=" '$(RunConfiguration)' == 'SmartChangeOver.HttpApi.Host' " />
+
+	<ItemGroup>
+	  <Compile Remove="logs\**" />
+	  <Content Remove="logs\**" />
+	  <EmbeddedResource Remove="logs\**" />
+	  <None Remove="logs\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Remove="appsettings.Stg.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="$(SwashbuckleVersion)" />
+		<PackageReference Include="Volo.Abp.Autofac" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.Caching" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.Swashbuckle" Version="$(AbpPackageVersion)" />
+		<PackageReference Include="Winton.Extensions.Configuration.Consul" Version="3.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.5" />
+		<PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="$(MicrosoftVersion)" />
+		<PackageReference Include="dotnet-etcd" Version="3.2.0" />
+		<PackageReference Include="Minio" Version="$(MinioPackageVersion)" />
+		<PackageReference Include="MongoDB.Driver" Version="2.17.1" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+		<PackageReference Include="Serilog.AspNetCore" Version="$(SerilogAspNetCoreVersion)" />
+		<PackageReference Include="Serilog.Exceptions" Version="$(SerilogExceptionsVersion)" />
+		<PackageReference Include="Serilog.Sinks.RabbitMQ" Version="$(SerilogSinksRabbitMqVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="$(MicrosoftVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="$(MicrosoftVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="$(MicrosoftVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="$(MicrosoftVersion)" />
+		<PackageReference Include="Spire.Office" Version="8.2.2" />
+		<PackageReference Include="Spire.Officefor.NETStandard" Version="8.2.2" />
+		<PackageReference Include="Spire.PDF" Version="9.3.2" />
+		<PackageReference Include="Serilog" Version="$(SerilogVersion)" />
+		<PackageReference Include="Serilog.AspNetCore" Version="$(SerilogAspNetCoreVersion)" />
+		<PackageReference Include="Serilog.Exceptions" Version="$(SerilogExceptionsVersion)" />
+		<PackageReference Include="Serilog.Extensions.Logging" Version="$(SerilogExtensionsLoggingVersion)" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="$(SerilogSettingsConfigurationVersion)" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="$(SerilogSinksConsoleVersion)" />
+		<PackageReference Include="Serilog.Sinks.Elasticsearch" Version="$(SerilogSinksElasticsearchVersion)" />
+		<PackageReference Include="Serilog.Sinks.RabbitMQ" Version="$(SerilogSinksRabbitMqVersion)" />
+		<PackageReference Include="Serilog.Sinks.File" Version="$(SerilogSinksFileVersion)" />
+		<PackageReference Include="Serilog.Sinks.Async" Version="$(SerilogSinksAsyncVersion)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\jb.smartchangeover.Service.Application\jb.smartchangeover.Service.Application.csproj" />
+	  <ProjectReference Include="..\jb.smartchangeover.Service.EntityFrameworkCore\jb.smartchangeover.Service.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\jb.smartchangeover.Service.HttpApi\jb.smartchangeover.Service.HttpApi.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="Jabil.Service.Frameworks">
+	    <HintPath>..\..\JB.Library\Jabil.Service.Frameworks.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Jabil.Service.Shared.Hosting.Microservices">
+	    <HintPath>..\..\JB.Library\Jabil.Service.Shared.Hosting.Microservices.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+	
+
+</Project>
